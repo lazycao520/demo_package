@@ -1,0 +1,23 @@
+{
+    "name": "laao/demo_package",
+    "description": "this is a demo package",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "lazycao",
+            "email": "1041242370@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Laao\\DemoPackage\\": "laao/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
