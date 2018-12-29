@@ -1,6 +1,4 @@
 <?php
-namespace Laao\DemoPackage\Tests;
-
 use Laao\DemoPackage\Demo;
 use PHPunit\Framework\TestCase;
 class DemoTest extends TestCase{
